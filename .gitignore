@@ -1,0 +1,11 @@
+# 只上传 README 与它引用的插图；其余一切都不进 git
+/*
+!/.gitignore
+!/README.md
+!/docs/
+!/samples/
+/docs/*
+!/docs/fangsong-hinting-deform.png
+/samples/*
+!/samples/前后对比-整页.png
+!/samples/前后对比-局部.png
