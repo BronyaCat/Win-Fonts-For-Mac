@@ -28,6 +28,10 @@
 
 ```bash
 brew tap BronyaCat/gongwen
+
+# 新版 Homebrew 需要先信任这个 tap，否则会报 untrusted tap
+brew trust --cask bronyacat/gongwen/gongwen-fonts
+
 brew install --cask gongwen-fonts
 ```
 
